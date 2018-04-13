@@ -1,0 +1,22 @@
+{
+  "name": "Sevak-the-chat-bot",
+  "version": "1.0.0",
+  "description": "Airtel chatbot for customers",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "airtel"
+  ],
+  "author": "Anurag Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "node-wit": "^4.2.0",
+    "request": "^2.72.0",
+    "google-translate-api": "^2.2.2"
+  }
+}
